@@ -56,6 +56,7 @@ const Popup: React.FC = () => {
   }
 
   React.useEffect(() => {
+    console.log('lakshay mounted')
     const loadChromeStorage = async () => {
       if (!chrome) return
 
